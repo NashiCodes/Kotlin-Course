@@ -1,11 +1,11 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import utils.Menu
+
 fun main() {
 
-    //Get the name from the user
-    println("Enter your name:")
-    val name = readlnOrNull()
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+    for (i in 1..10) {
+        println()
+    }
+    println("Welcome to my Kotlin Algorithms")
+    Menu().mainMenu()
+
 }
